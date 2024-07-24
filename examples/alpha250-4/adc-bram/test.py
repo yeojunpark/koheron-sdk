@@ -12,7 +12,7 @@ matplotlib.use('TKAgg')
 from matplotlib import pyplot as plt
 from matplotlib.lines import Line2D
 
-host = os.getenv('HOST', '192.168.1.50')
+host = os.getenv('HOST', '192.168.2.22')
 client = connect(host, 'adc-bram', restart=False)
 driver = AdcBram(client)
 
