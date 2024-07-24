@@ -18,7 +18,7 @@ driver = AdcBram(client)
 
 print('ADC size = {}'.format(driver.adc_size))
 
-driver.set_reference_clock(0) # External
+driver.set_reference_clock(2) # External
 time.sleep(5)
 
 clk_200MHz = {'idx': 0, 'fs': 200E6}
