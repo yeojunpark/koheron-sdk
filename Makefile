@@ -18,7 +18,7 @@ VIVADO_VERSION := 2017.2
 VIVADO_PATH := /opt/Xilinx/Vivado
 PYTHON := python3
 # Use GCC version >=7
-GCC_VERSION := 9
+GCC_VERSION := 12
 
 # Use this command to set GCC_VERSION to 9 on Ubuntu 22.04
 .PHONY: set_gcc_version
