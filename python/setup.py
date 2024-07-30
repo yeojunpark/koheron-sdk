@@ -18,7 +18,7 @@ setup(
     install_requires=['requests', 'Click'],
     classifiers=[
         'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3.5'
+        'Programming Language :: Python :: 3.10'
     ],
     entry_points='''
         [console_scripts]
